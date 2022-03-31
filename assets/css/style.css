@@ -2971,8 +2971,8 @@ body {
   
   padding-top: 80px;
   padding-bottom: 40px;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
   font-family: "Poppins", sans-serif;
   place-items: center;
   justify-content: center;
