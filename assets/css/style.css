@@ -2692,7 +2692,8 @@ a.night{
 }
 
 .e{
-  margin-left: 11rem;
+ margin:  40px;
+  margin-left: 10rem;
 }
 
 .l-main{
@@ -2970,8 +2971,8 @@ body {
   
   padding-top: 80px;
   padding-bottom: 40px;
-  height: 100%;
-  width: 80%;
+  height: auto;
+  width: auto;
   font-family: "Poppins", sans-serif;
   place-items: center;
   justify-content: center;
