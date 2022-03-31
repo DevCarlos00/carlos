@@ -184,7 +184,7 @@
     color:rgb(255, 255, 255); 
   }
 
-  h1.{
+  h1.{ 
     color:black;
   }
 
@@ -2984,9 +2984,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .tooltip {
@@ -3221,14 +3221,14 @@ a:hover {
 }
 .blog-post-box p{
   position: relative;  
-  color: #c4c3ca;
+  color: #ffffff;
   cursor: pointer;
     font-weight: 200;
   font-size: 14px;
   display: inline-block;
   mix-blend-mode: luminosity;
   padding: 4px 12px;
-  background-color: rgba(127,110,210,.8);
+  background-color: #0004ff;
     border-radius: 2px;
   z-index: 4;
 }
@@ -3266,20 +3266,20 @@ a:hover {
   background-image: url('pull1.jpg');
 }
 .cursor-shadow.active-blog-post-2 {
-background-image: url('pull1.jpg');
+background-image: url('post-1.png');
 
 }
 .cursor-shadow.active-blog-post-3 {
-  background-image: url('http://ivang-design.com/alke/img/blog/3.jpg');
+  background-image: url('newton.png');
 }
 .cursor-shadow.active-blog-post-4 {
-  background-image: url('http://ivang-design.com/alke/img/blog/4.jpg');
+  background-image: url('FB_IMG_1568746978320.jpg');
 }
 .cursor-shadow.active-blog-post-5 {
-  background-image: url('http://ivang-design.com/alke/img/blog/5.jpg');
+  background-image: url('FB_IMG_1568747463637.jpg');
 }
 .cursor-shadow.active-blog-post-6 {
-  background-image: url('http://ivang-design.com/alke/img/blog/6.jpg');
+  background-image: url('1.jpg');
 }
 .cursor-shadow.active-blog-post-7 {
   background-image: url('http://ivang-design.com/alke/img/blog/7.jpg');
