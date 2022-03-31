@@ -2763,7 +2763,7 @@ html{
 
 
 
-
+/*
 
 
 #contact input[type="text"],
@@ -2869,6 +2869,7 @@ fieldset {
   outline: 0;
   border: 1px solid #aaa;
 }
+*/
 
 ::-webkit-input-placeholder {
   color: #888;
