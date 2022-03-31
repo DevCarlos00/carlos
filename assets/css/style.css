@@ -2985,7 +2985,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 10px rgba(24, 23, 23, 0.837);
   cursor: pointer;
   transition: all 0.1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
