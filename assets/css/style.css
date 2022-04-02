@@ -1241,7 +1241,7 @@
     box-shadow: 56px 54px 50px rgba(0, 0, 0, 0.953);
     padding: 20px 20px 28px 20px;
     box-sizing: border-box;
-    margin: 40px;
+    margin: auto;
     
     flex-direction: column;
     transform-style: preserve-3d;
