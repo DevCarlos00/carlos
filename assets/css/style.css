@@ -1218,9 +1218,9 @@
  
 
 .card-deck{
-  display: flexca;
+display: flex;
   flex-direction: row;
-
+  margin: 0.4rem;
 
 
 }
