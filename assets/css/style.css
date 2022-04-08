@@ -1942,8 +1942,8 @@ background-color: none;
 	top: 7%;
 	bottom: 7%;
 	left: 430px;
-	width: calc(100% - 470px);
-	font-size: 17px;
+	width: calc(auto - 470px);
+	font-size: auto;
 }
 .projcard:nth-child(2n) .projcard-textbox {
 	left: initial;
@@ -1978,7 +1978,7 @@ background-color: none;
 }
 .projcard-title {
 	font-family: 'Voces', 'Open Sans', arial, sans-serif;
-	font-size: 24px;
+	font-size: auto;
 }
 .projcard-subtitle {
 	font-family: 'Voces', 'Open Sans', arial, sans-serif;
@@ -1997,7 +1997,7 @@ background-color: none;
 
 .projcard-description {
 	z-index: 10;
-	font-size: 15px;
+	font-size: auto;
 	color: #424242;
 	height: 225px;
 	overflow: hidden;
@@ -2094,12 +2094,7 @@ text-align: center;
 padding-right: 3rem;
 justify-content: center;
 justify-items: center;
-
+flex-direction: auto;
 }
  
 
-
-.card-group{
-
-
-}
