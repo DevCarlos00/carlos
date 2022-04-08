@@ -1028,7 +1028,7 @@
     margin-bottom: 3rem;
   }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    
+    .projcard-container
    }
   
   @media (min-width: 768px) {
@@ -1856,11 +1856,15 @@ background-color: none;
 /*/////////////////////////////////////////////////////////////////////*/
 
 
+
+
 .projcard-container {
-	margin: 50px 0;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-/* Actual Code: */
+
 .projcard-container,
 .projcard-container * {
 	box-sizing: border-box;
@@ -1868,11 +1872,11 @@ background-color: none;
 .projcard-container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
+	width: auto;
 }
 .projcard {
 	position: relative;
-	width: 100%;
+	width: auto;
 	height: 300px;
 	margin-bottom: 40px;
 	border-radius: 10px;
@@ -1951,7 +1955,7 @@ background-color: none;
 	top: -20%;
 	left: -55px;
 	height: 140%;
-	width: 60px;
+	width: auto;
 	transform: rotate(8deg);
 }
 .projcard:nth-child(2n) .projcard-textbox::before {
@@ -1978,7 +1982,7 @@ background-color: none;
 }
 .projcard-bar {
 	left: -2px;
-	width: 50px;
+	width: auto;
 	height: 5px;
 	margin: 10px 0;
 	border-radius: 5px;
@@ -2039,8 +2043,8 @@ background-color: none;
 
 
 .tituloblog{
- padding: 8rem; 
- margin: 4rem;
+ padding-left: 2rem; 
+ padding-right: 2rem;
  
 }
 
@@ -2079,16 +2083,13 @@ text-align: center;
   font-size: 2rem;
 }
 
-html {
-  
-}
 
-body {
-  
-}
+.card-group
+{
+  padding-left:3rem ;
+padding-right: 3rem;
+justify-content: center;
+justify-items: center;
 
-@media (orientation: landscape) {
-  body {
-   
-  }
 }
+ 
