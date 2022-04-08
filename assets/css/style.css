@@ -1226,7 +1226,7 @@ height: auto;
 display: grid;
 height:auto;
 width: auto;
-
+margin: 1.1rem;
 
 }
 
@@ -1254,7 +1254,7 @@ width: auto;
     
     flex-direction: column;
     transform-style: preserve-3d;
-    min-height: 80vh;
+    
     width: 14rem;
     right: 5rem;
     justify-items: center;
