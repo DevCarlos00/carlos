@@ -145,7 +145,7 @@
   
 
 body.night{
-  background: linear-gradient(-45deg, #5900ff, #ffffff, #ffffff, #00ffaa);
+  background: linear-gradient(-45deg, #a97bff, #ffffff, #ffffff, #00ff6a);
 	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
 	height: 100vh;
