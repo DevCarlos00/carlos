@@ -1611,7 +1611,7 @@ a.night{
 }
 
 .l-main{
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   margin-left: 3.5rem;
 }
 
@@ -1623,20 +1623,20 @@ html{
 .home{
 
  
-    background: linear-gradient(-45deg, #a97bff, #ffffff, #ffffff, #00ff6a);
+    background: linear-gradient(-45deg, #a97bff, #3a3a3a, #ffffff, #00ff6a);
     background-size: 400% 400%;
-    animation: gradient 6s ease infinite;
+    animation: gradient 4s ease infinite;
     height: 50vh;
 
   
 
-
-
-
-  margin: 2rem;
+margin-left: 2rem;
+margin-right: 2rem;
+height: 450px;
   width: auto;
   
 }
+
 @keyframes gradient {
     0% {
       background-position: 0% 80%;
@@ -1650,7 +1650,7 @@ html{
   }
   
 
-
+ 
 
 
 
@@ -1658,7 +1658,7 @@ html{
   position: absolute;
 
   width: auto;
-  height: calc(100vh - var(--mb-3));
+  height: auto;
   
 }
 
