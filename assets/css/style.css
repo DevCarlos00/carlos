@@ -1621,10 +1621,35 @@ html{
 
 
 .home{
+
+ 
+    background: linear-gradient(-45deg, #a97bff, #ffffff, #ffffff, #00ff6a);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+    height: 50vh;
+
+  
+
+
+
+
   margin: 2rem;
   width: auto;
-  background-color: none;
+  
 }
+@keyframes gradient {
+    0% {
+      background-position: 0% 80%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
 
 
 
@@ -2066,7 +2091,8 @@ background-color: none;
   font-size: 10px;
  padding-left: 2rem; 
  padding-right: 2rem;
- 
+ padding-top: 4rem;
+ padding-bottom: 4rem;
 }
 
 .cc::before {  
