@@ -1625,9 +1625,10 @@ html{
  
 
     background: linear-gradient(-45deg, #a97bff73, #ffffff85, #ffffff54, #00ff6a);
-    background-size: 400% 400%;
+    background-size: ;
     animation: gradient 3s ease infinite;
     height: 250px;
+    width: auto;
   }
  
 
