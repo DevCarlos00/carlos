@@ -2063,7 +2063,7 @@ background-color: none;
 
 .tituloblog{
   
-  font-size: 3rem;
+  font-size: 10px;
  padding-left: 2rem; 
  padding-right: 2rem;
  
@@ -2098,7 +2098,7 @@ justify-content: center;
 
 .cc {
 text-align: center;
-  padding: 10rem;
+  padding: 2rem;
   align-items: center;
   position: relative;
   font-size: 6rem;
