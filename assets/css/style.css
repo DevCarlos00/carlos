@@ -145,8 +145,8 @@
   
 
 body.night{
-  background: linear-gradient(-45deg, #00ffbf, #ffffff, #ffffff, #7bffb7), url(https://grainy-gradients.vercel.app/noise.svg);
-	background-size: 400%;
+  background: linear-gradient(-45deg, #5900ff, #ffffff, #ffffff, #00ffaa);
+	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
 	height: 100vh;
 }
@@ -166,7 +166,7 @@ body.night{
 */
 
 {
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), ;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
 
   }
   
@@ -1917,12 +1917,11 @@ background-color: none;
 	height: 300px;
 	margin-bottom: 40px;
 	border-radius: 10px;
-  background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
 	/*border: 2px solid #ddd;*/
 	font-size: 18px;
 	overflow: hidden;
 	cursor: pointer;
-	box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.66);
+	
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .projcard:hover {
