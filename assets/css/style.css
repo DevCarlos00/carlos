@@ -1611,46 +1611,45 @@ a.night{
 }
 
 .l-main{
-  margin-top: 4rem;
-  margin-left: 3.5rem;
+  margin-top: 4.5rem;
+  margin-left: 2.5rem;
 }
 
 html{
   scroll-behavior: smooth;
 }
 
-
 .home{
 
  
-    background: linear-gradient(-45deg, #a97bff, #3a3a3a, #ffffff, #00ff6a);
-    background-size: 400% 400%;
-    animation: gradient 4s ease infinite;
-    height: 50vh;
+  background: linear-gradient(-45deg, #a97bff, #e2e2e2, #ffffff, #00ff6a);
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  height: 50vh;
 
-  
 
+margin-top: 2rem;
 margin-left: 2rem;
 margin-right: 2rem;
-height: 450px;
-  width: auto;
-  
+height: 550px;
+width: auto;
+
 }
 
 @keyframes gradient {
-    0% {
-      background-position: 0% 80%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 80%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
   
 
- 
+
 
 
 
@@ -1658,7 +1657,7 @@ height: 450px;
   position: absolute;
 
   width: auto;
-  height: auto;
+  height: calc(100vh - var(--mb-3));
   
 }
 
@@ -2092,7 +2091,7 @@ background-color: none;
  padding-left: 2rem; 
  padding-right: 2rem;
  padding-top: 4rem;
- padding-bottom: 4rem;
+ 
 }
 
 .cc::before {  
