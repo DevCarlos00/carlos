@@ -144,32 +144,44 @@
 }
   
 
+body.night{
+  background: linear-gradient(-45deg, #93ffe6, #ffffff, #ffffff, #04ffff);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
+/*
+*/
 
-  body.night{
-    background: linear-gradient(-45deg, #e6ff06, #00ff6a, #ffffff, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 6s ease infinite;
-    height: 100vh;    
+{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
+
   }
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+   
 
  
   body{
     
     background: linear-gradient(to right, rgb(0, 0, 0), rgba(1, 7, 73, 0.693)), url(https://grainy-gradients.vercel.app/noise.svg);
   }
+
+
+
+
+
 #arriba{
   justify-content: center;
   padding-top: 100px;
@@ -2094,10 +2106,10 @@ justify-content: center;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: rgba(72, 255, 127, 0.514);
+  background: rgb(72, 255, 127);
   z-index: -1;
   transition: transform .3s ease;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
 .cc {
@@ -2105,7 +2117,7 @@ text-align: center;
   padding: 2rem;
   align-items: center;
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
