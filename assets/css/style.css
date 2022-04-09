@@ -857,10 +857,10 @@ body.night{
   
   /*modo responsivo de reduccion */
   .navbar-b.navbar-reduce {
-    margin-top: 2px;
+    
     transition: all .4s ease-in-out;
     background-color: #fcfcfccb;
-    border-radius: 30px;
+
     height: auto;
     width: auto;
     text-align: right;
