@@ -1621,32 +1621,11 @@ html{
 
 
 .home{
-
- 
   margin: 2rem;
   width: auto;
-    background: linear-gradient(-45deg, #a97bff73, #ffffff85, #ffffff54, #00ff6a);
-    background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
-    height: 250px;
-  }
- 
-
-
   background-color: none;
 }
- @keyframes gradient {
-    0% {
-      background-position: 0% 80%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
+
 
 
 
