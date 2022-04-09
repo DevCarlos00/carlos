@@ -776,7 +776,7 @@ body.night{
     }
 
   .navbar-b.navbar-reduce {
-    box-shadow: 0px 6px 9px 0px rgb(0, 0, 0);
+    box-shadow: 0px 2px 4px 0px rgb(0, 0, 0);
   }
   
   .navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
@@ -793,7 +793,7 @@ body.night{
   
   /*texto de menuuuuuuuu*/
   .navbar-b.navbar-trans , .navbar-b.navbar-reduce . {
-    color: #222222;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -803,12 +803,12 @@ body.night{
     content: '';
     position: absolute;
     margin-left: 0px;
-    width: 5%;
+    width: auto;
     bottom: 0;
     left: 0;
     height: 4px;
-    transition: all 300ms ease;
-    border-radius: 2px;
+    transition: all 400ms ease;
+    border-radius: 4px;
     
   }
   
@@ -823,7 +823,8 @@ body.night{
   }
   
   .navbar-b.navbar-trans .nav-link:hover:before, .navbar-b.navbar-reduce .nav-link:hover:before {
-    width: 35px;
+    width: 155px;
+    height: 5px;
   }
   
   .navbar-b.navbar-trans .show > .nav-link:before,
@@ -837,7 +838,7 @@ body.night{
   }
   
   .navbar-b.navbar-trans .nav-link:before {
-    background-color: rgb(10, 255, 235);
+    background-color: rgb(255, 255, 255);
     width: 0;
   }
   
@@ -850,15 +851,21 @@ body.night{
   .navbar-b.navbar-trans .active > .nav-link,
   .navbar-b.navbar-trans .nav-link.show,
   .navbar-b.navbar-trans .nav-link.active {
-    color: rgb(146, 255, 231);
+    color: rgb(255, 217, 0);
   }
   /* navar---- de arriba----------------------------*/
   
   /*modo responsivo de reduccion */
   .navbar-b.navbar-reduce {
-    transition: all .9s ease-in-out;
-    background-color: #69eeaa;
-  }
+    margin-top: 2px;
+    transition: all .4s ease-in-out;
+    background-color: #fcfcfccb;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    text-align: right;
+    
+    }
 
 
    
@@ -868,10 +875,10 @@ body.night{
     width:auto;
   }
   
-  /*barritas de reducin  resposivas*/
+  /*barritas de porcentajke  reducin  resposivas*/
   .navbar-b.navbar-reduce .nav-link:before {
-    background-color: #ffffffbb;
-    width: auto;
+    background-color: #00ff73;
+    width: 3px;
  
   }
   
@@ -903,7 +910,7 @@ body.night{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #222222;
    
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
   }
   
@@ -916,22 +923,22 @@ body.night{
   
   .navbar-b .dropdown-menu {
     margin: 1.12rem 0 0;
-    border-radius: 0;
+    border-radius: 10;
   }
   
   .navbar-b .dropdown-menu .dropdown-item {
     padding: .7rem 1.7rem;
-    transition: all 500ms ease;
+    transition: all 200ms ease;
   }
   
   .navbar-b .dropdown-menu .dropdown-item:hover {
     background-color: #ffffff;
     color: rgb(255, 255, 255);
-    transition: all 500ms ease;
+    transition: all 200ms ease;
   }
   
   .navbar-b .dropdown-menu .dropdown-item.active {
-    background-color: #ffffff;
+    background-color: #e92727;
   }
   
   /*--/ Hamburger Navbar /--*/
@@ -944,14 +951,17 @@ body.night{
     outline: 0;
   }
   
-  .navbar-toggler span {
-    display: block;
-    background-color: rgba(228, 6, 6, 0.76);
-    height: 1px;
-    width: 1px;
-    margin-top: 2px;
+
+/*CUADRITOS DE BRRARR*/
+
+    .navbar-toggler span {
+    display: flex;
+    background-color: none;
+    height: 10px;
+    width: 20px;
+    margin-top: 0px;
     margin-bottom: 4px;
-    transform: rotate(0deg);
+    transform: rotate(deg);
     left: 0;
     opacity: 1;
   }
@@ -959,17 +969,17 @@ body.night{
   .navbar-toggler span:nth-child(1),
   .navbar-toggler span:nth-child(3) {
     transition: transform .35s ease-in-out;
-    background-color: rgba(75, 255, 186, 0.919);
+    background-color: rgb(255, 255, 255);
 
   }
   
   .navbar-toggler:not(.collapsed) span:nth-child(1) {
-    position: absolute;
+    position: flex;
     left: 12px;
     top: 10px;
     transform: rotate(135deg);
-    opacity: 0.9;
-    background-color: rgba(0, 255, 221, 0.76);
+    opacity: 1.9;
+    background-color: rgb(1, 255, 213);
 
   }
   
@@ -985,7 +995,7 @@ body.night{
     top: 10px;
     transform: rotate(-135deg);
     opacity: 0.9;
-    color
+    
   }
   
  ----------*/
