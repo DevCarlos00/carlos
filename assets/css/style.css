@@ -1636,36 +1636,7 @@ html{
   scroll-behavior: smooth;
 }
 
-.home{
 
-z-index: -2; 
-  background: linear-gradient(-40deg, #ffffff96, #e2e2e28e, #04ffead8, #06ff6e);
-  background-size: 300% 300%;
-  animation: gradient 4s ease infinite;
-  height: 50vh;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.953);
-
-margin-top: 6rem;
-margin-left: 0rem;
-margin-right: 2rem;
-height: 550px;
-width: auto;
-border-radius: 20px;}
-
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 10%;
-  }
-  50% {
-    background-position: 10% 50%;
-  }
-  100% {
-    background-position: 0% 10%;
-  }
-}
-  
 
 
 
