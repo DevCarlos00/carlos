@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_devo',
   urlsToCache = [
-    './img',
+    '/img',
     'https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans',
     'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
@@ -22,8 +22,12 @@ const CACHE_NAME = 'v1_cache_devo',
     './script.js',
     './main.js',
     './moon.js',
-    './movet.js'
-   
+    './movet.js',
+    'assets/img/a.png',
+    'assets/img/AGRO.png',
+    'assets/img/appverde.png',
+    'assets/img/Blockchain.png',
+    'assets/img/wepverde.png'
    
   ]
 
