@@ -7,8 +7,22 @@ const CACHE_NAME = 'v1_cache_devo',
     'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
+
+    'assets/vendor/jquery/jquery.min.js',
+    'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+
+    'assets/vendor/jquery.easing/jquery.easing.min.js',
+    'assets/vendor/waypoints/jquery.waypoints.min.js',
+    'assets/vendor/counterup/jquery.counterup.min.js',
+    'assets/vendor/owl.carousel/owl.carousel.min.js',
+    'assets/vendor/typed.js/typed.min.js',
+,    'assets/vendor/venobox/venobox.min.js',
+    
     './style.css',
     './script.js',
+    './main.js',
+    './moon.js'
+   
    
   ]
 
