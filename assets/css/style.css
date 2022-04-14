@@ -334,6 +334,10 @@ body.night{
   color: #000000;
 }
 
+a.night{
+  color: blanchedalmond
+}
+
 .icon{
   color: #000000;
 }
@@ -342,8 +346,7 @@ body.night{
   font-style: var(--color-text);
 }
   
-  
- 
+
   
  
 
@@ -776,7 +779,7 @@ body.night{
   
     .navar-b span{
 
-      color: #c9d3d0;
+      color: #15f1af;
     }
 
   .navbar-b.navbar-reduce {
@@ -961,8 +964,8 @@ body.night{
     .navbar-toggler span {
     display: flex;
     background-color: none;
-    height: 10px;
-    width: 20px;
+    height: 4px;
+    width: 5px;
     margin-top: 0px;
     margin-bottom: 4px;
     transform: rotate(deg);
@@ -1638,16 +1641,17 @@ html{
  
   background: linear-gradient(-40deg, #a97bff3f, #e2e2e2ef, #ffffffb7, #00ff6a);
   background-size: 300% 300%;
-  animation: gradient 2s ease infinite;
+  animation: gradient 4s ease infinite;
   height: 50vh;
-
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.953);
 
 margin-top: 6rem;
-margin-left: 2rem;
+margin-left: 0rem;
 margin-right: 2rem;
 height: 550px;
 width: auto;
-border-radius: 30px;
+border-radius: 20px;}
+
 
 }
 
@@ -1699,12 +1703,10 @@ border-radius: 30px;
   color: var(--white-color);
 }
 
-#lo.night {
-  color: #ffffff;
-} 
-#lo{
-  color: #000000;
+#lo{color: #999999;
+
 }
+
 
 #h33{
   color: #000000;
@@ -1759,7 +1761,7 @@ background-color: none;
 }
 
 .yo{
- 
+ margin-top: -230px;
 }
 
 #yoo{
@@ -2159,5 +2161,9 @@ flex-direction: auto;
   height: auto;
   background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
   border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.953);
+
+
   margin: 2rem;
 }
+
