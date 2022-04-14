@@ -21,7 +21,8 @@ const CACHE_NAME = 'v1_cache_devo',
     './style.css',
     './script.js',
     './main.js',
-    './moon.js'
+    './moon.js',
+    './movet.js'
    
    
   ]
