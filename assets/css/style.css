@@ -1638,8 +1638,8 @@ html{
 
 .home{
 
- 
-  background: linear-gradient(-40deg, #a97bff3f, #e2e2e2ef, #ffffffb7, #00ff6a);
+z-index: -2; 
+  background: linear-gradient(-40deg, #ffffff96, #e2e2e28e, #04ffead8, #06ff6e);
   background-size: 300% 300%;
   animation: gradient 4s ease infinite;
   height: 50vh;
@@ -1651,7 +1651,6 @@ margin-right: 2rem;
 height: 550px;
 width: auto;
 border-radius: 20px;}
-
 
 }
 
