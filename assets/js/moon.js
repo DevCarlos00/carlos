@@ -101,3 +101,11 @@ $("#sun-moon").click(function(){
     $("h3").toggleClass('night day');
     
   });
+
+
+  
+  $("#sun-moon").click(function(){
+    $("#yoo").getElementById("assets/css/ñ.png").src=""('night day')
+
+  });
+
