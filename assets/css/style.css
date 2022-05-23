@@ -1161,7 +1161,7 @@ a.night{
   --------------------------------------------------------------*/
   footer {
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.192);
     padding: 25px 0;
     background: #00ffd5;
   }
@@ -2145,8 +2145,8 @@ flex-direction: auto;
 .site-footer{
   width: auto;
   height: auto;
-  background: linear-gradient(to right, rgb(255, 255, 255), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
-  border-radius: 20px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.137), rgba(170, 170, 170, 0.309)), url(https://grainy-gradients.vercel.app/noise.svg);
+  border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.953);
 
 
@@ -2505,3 +2505,10 @@ a:hover {
       font-size: 7vw;
   }
 } */
+
+
+
+
+
+
+
